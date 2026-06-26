@@ -33,6 +33,11 @@ except Exception as e:
 reviews = data.get('reviews', [])[:3]
 bad_reviews = [r for r in reviews if r.get('rating', 5) <= 3]
 
+# --- ADD THESE TWO LINES FOR TESTING ---
+fake_test_review = {"rating": 1, "user": {"name": "Test Account"}, "snippet": "This is a fake test review to verify the automation engine."}
+bad_reviews.append(fake_test_review)
+# --------------------------------------
+
 # 5. Execute email transfer if issues are found
 if bad_reviews:
     msg = EmailMessage()
