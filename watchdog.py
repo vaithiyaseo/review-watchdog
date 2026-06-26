@@ -39,7 +39,7 @@ bad_reviews.append(fake_test_review)
 # --------------------------------------
 
 # 5. Execute email transfer if issues are found
-if bad_reviews:
+if True:
     msg = EmailMessage()
     msg['Subject'] = "🚨 URGENT: Low Review Alert on Google Maps"
     msg['From'] = GMAIL_USER
