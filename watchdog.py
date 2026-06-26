@@ -16,7 +16,7 @@ if not all([SERPAPI_KEY, GMAIL_USER, GMAIL_PASS]):
 # 2. Assign the target profile and destination email
 # Replace the string below with the actual Place ID you found earlier
 PLACE_ID = "ChIJyW1tTwDbBjsRyM11yGQZ65s" 
-OWNER_EMAIL = "your_personal_email@gmail.com"  # Put your email here for testing
+OWNER_EMAIL = "vaithiyanathanmuneeswaran@gmail.com"  # Put your email here for testing
 
 # 3. Connect to SerpApi and fetch the freshest reviews
 url = f"https://serpapi.com/search.json?engine=google_maps_reviews&place_id={PLACE_ID}&sort_by=newestFirst&api_key={SERPAPI_KEY}"
