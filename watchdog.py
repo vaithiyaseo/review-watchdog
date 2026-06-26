@@ -15,7 +15,7 @@ if not all([SERPAPI_KEY, GMAIL_USER, GMAIL_PASS]):
 
 # 2. Assign the target profile and destination email
 # Replace the string below with the actual Place ID you found earlier
-PLACE_ID = "ChIJyW1tTwDbBjsRyM11yGQZ65s" 
+PLACE_ID = "ChIJ0dVrKADpBjsRbOP6XyyCSYM" 
 OWNER_EMAIL = "vaithiyanathanmuneeswaran@gmail.com"  # Put your email here for testing
 
 # 3. Connect to SerpApi and fetch the freshest reviews
